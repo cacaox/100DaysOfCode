@@ -1,0 +1,83 @@
+.main .spinner {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  margin: 100px auto;
+  -webkit-animation-name: spinner;
+          animation-name: spinner;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.main .spinner:hover {
+  background-color: blue;
+}
+
+.main .spinner:active {
+  background-color: red;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
+            transform: perspective(120px) rotateX(0) rotateY(0);
+  }
+  20% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0);
+            transform: perspective(120px) rotateX(-180deg) rotateY(0);
+  }
+  40% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(180deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(180deg);
+  }
+  60% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(180deg);
+            transform: perspective(120px) rotateX(0) rotateY(180deg);
+  }
+  80% {
+    -webkit-transform: perspective(120px) rotateX(180) rotateY(0);
+            transform: perspective(120px) rotateX(180) rotateY(0);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
+            transform: perspective(120px) rotateX(0) rotateY(0);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
+            transform: perspective(120px) rotateX(0) rotateY(0);
+  }
+  20% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0);
+            transform: perspective(120px) rotateX(-180deg) rotateY(0);
+  }
+  40% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(180deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(180deg);
+  }
+  60% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(180deg);
+            transform: perspective(120px) rotateX(0) rotateY(180deg);
+  }
+  80% {
+    -webkit-transform: perspective(120px) rotateX(180) rotateY(0);
+            transform: perspective(120px) rotateX(180) rotateY(0);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(0) rotateY(0);
+            transform: perspective(120px) rotateX(0) rotateY(0);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
