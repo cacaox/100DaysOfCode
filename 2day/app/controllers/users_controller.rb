@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 
-  def home
+  def index
+    @user = User.all #確認用
   end
 
   def new 
