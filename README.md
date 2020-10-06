@@ -4,3 +4,4 @@
 2day docker-compose.yml等を使ったrails+mysqlの環境構築
 3day 2dayに作成した環境にて、ユーザー登録用のモデルとコントローラーを作成・記述
 4day slimのgemを導入し,仮のホームを設置
+5day 書籍:webを支える技術を読み始めた
