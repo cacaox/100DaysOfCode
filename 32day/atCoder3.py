@@ -1,6 +1,8 @@
 #3門目
 N = int(input())
-X,Y = {int(input()):int(input())}
-print(N)
-print(X)
-print(Y)
+while True:
+  if not N:
+    break
+
+  for i in range(N):
+    
