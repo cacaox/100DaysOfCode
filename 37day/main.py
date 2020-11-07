@@ -3,7 +3,7 @@ import csv
 MyName = 'cacaox'
 
 def hello():
-  print(f'こんにちは、私は{MyName}です。\n貴方は何者ですか？')
+    print(f'こんにちは、私は{MyName}です。\n貴方は何者ですか？')
 
 def speak2():
   print(f'{UserName}さんですか・・・貴方の職業はなんですか？')
